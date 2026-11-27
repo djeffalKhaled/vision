@@ -1,0 +1,8 @@
+# IMPORTANT: only ONE opencv package may be installed. mediapipe 0.10.21 needs opencv-contrib-python,
+# so do NOT install opencv-python next to it.  Clean install:
+#   pip uninstall -y opencv-python opencv-python-headless opencv-contrib-python
+#   pip install -r requirements.txt
+numpy<2
+opencv-contrib-python>=4.9,<4.12
+mediapipe==0.10.21      # Python 3.9 - 3.12
+# pynput                # optional: global key listener for the remote

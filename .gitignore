@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

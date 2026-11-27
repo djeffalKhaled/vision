@@ -1,0 +1,61 @@
+{
+  "board_w": 1280,
+  "board_h": 720,
+  "camera_index": 0,
+  "cam_w": 640,
+  "cam_h": 480,
+  "intrinsics_path": "intrinsics.npz",
+  "h_min": 69.64705657958984,
+  "h_max": 125.64705657958984,
+  "s_min": 0.25,
+  "v_min": 0.2,
+  "tracking": "marker",
+  "hand_max_hands": 2,
+  "hand_model_path": "models/hand_landmarker.task",
+  "hand_model_url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+  "min_area": 12,
+  "skin_cr": [
+    103.0162353515625,
+    131.0162353515625
+  ],
+  "skin_cb": [
+    121.87626647949219,
+    149.8762664794922
+  ],
+  "skin_y_min": 60.0,
+  "finger_stride": 3,
+  "finger_min_area": 60,
+  "detect_stride": 2,
+  "filt_min_alpha": 0.25,
+  "filt_max_alpha": 0.85,
+  "filt_speed_ref": 120.0,
+  "filt_dead_zone": 3.0,
+  "hold_frames": 8,
+  "next_keys": [
+    2228224,
+    65366
+  ],
+  "prev_keys": [
+    2162688,
+    65365
+  ],
+  "next_names": [
+    "page_down"
+  ],
+  "prev_names": [
+    "page_up"
+  ],
+  "arrows_literal": false,
+  "arrow_left_keys": [
+    2424832,
+    65361
+  ],
+  "arrow_right_keys": [
+    2555904,
+    65363
+  ],
+  "use_pynput": false,
+  "debounce_s": 0.15,
+  "calib_path": "calibration.json",
+  "images_dir": "images"
+}
